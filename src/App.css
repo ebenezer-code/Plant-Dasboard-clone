@@ -1,0 +1,29 @@
+.link {
+    margin: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: #0c0b0b73;
+}
+.link:hover {
+    color: #0c0b0bc4;
+    transition: all .5s ease;
+}
+.icon {
+    color: #0c0b0bbe;
+    animation: rotate 2s linear infinite;
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+}
+
+@keyframes rotate {
+    from 
+    {
+        transform: rotate(0deg);
+    
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
