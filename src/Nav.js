@@ -5,7 +5,7 @@ import {MdDashboard,MdProductionQuantityLimits,MdCelebration,MdRemoveShoppingCar
 
 const NavContainer = styled.nav`
     border-right: 1px solid #878484;
-    flex: 1;
+    flex-grow: 1;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -35,8 +35,8 @@ const LinkDiv = styled.div`
 const NavP = styled.p`
         font-size: 20px;
         font-weight: 100;
-        font-family: monospace;
-        color: #34af32;
+        font-family: ${props => props.primary ? "arial san-serif" : "monospace"};
+        color: ${props => props.primary ? "#0e0e0e" : "#34af32"};
 
 `
 
