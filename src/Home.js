@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Welcome from "./Componets/Welcome";
 import Search from "./Componets/Search";
+import Icons from "./Componets/Icons"
 // import Icons from "./Componets/Icons";
 
 const Main = styled.main`
@@ -17,7 +18,7 @@ function Home() {
             <Main >
                 <Welcome />
                 <Search />
-                {/* <Icons /> */}
+               <Icons />
             </Main>
         )
 }
