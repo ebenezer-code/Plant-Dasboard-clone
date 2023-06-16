@@ -7,7 +7,10 @@ import Icons from "./Componets/Icons"
 
 const Main = styled.main`
          background-color: #95959526;
-         flex-grow: 3;
+         display: flex;
+         justify-content: space-between;
+         margin: 0 auto;
+         padding: 10px 20px;
          
 
 `
