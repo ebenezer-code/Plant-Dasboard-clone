@@ -14,7 +14,7 @@ const Main = styled.main`
 
 function Home() {
        return (
-            <Main>
+            <Main >
                 <Welcome />
                 <Search />
                 {/* <Icons /> */}
