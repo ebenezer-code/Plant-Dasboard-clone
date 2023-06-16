@@ -18,7 +18,7 @@ function Home() {
             <Main >
                 <Welcome />
                 <Search />
-               <Icons />
+               <Icons />  
             </Main>
         )
 }

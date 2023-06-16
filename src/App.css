@@ -25,5 +25,15 @@
         transform: rotate(360deg);
     }
 }
+.image {
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
 
-
+.image img {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+}
